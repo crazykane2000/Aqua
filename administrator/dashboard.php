@@ -50,12 +50,11 @@
                   <thead>
                     <tr style="color:#ddd">
                       <th>#</th>
-                      <th> Name</th>
+                      <th>Name</th>
                       <th>Email</th>
                       <th>Wallet Address</th>
                       <th>File </th>
                       <th>Wallet Balance </th>
-                      <th>Status</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -84,9 +83,7 @@
                                 <td>'.$value['email'].'</td>
                                  <td>'.$value['tx_address'].'</td>
                                  <td><img src="../profile/'.$value['file'].'" style="width:30px;" /></td>
-                                 <td>'. number_format((float)getWalletBalance($value['tx_address']),2)." ".token_names().'</td>
-                                <td>'.$statys.'</td>
-                                
+                                 <td>'. number_format((float)getWalletBalance($value['tx_address']),2)." ".token_names().'</td>                                
                               </tr>';
                               $i++;
                       }

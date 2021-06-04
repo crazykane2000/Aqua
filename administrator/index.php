@@ -18,6 +18,7 @@
     script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
     script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
     -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   </head>
   <?php $rand = mt_rand(1,4); ?>
   <body style="background-image: url('../img/poi34.jpg');background-size: cover;">
@@ -27,7 +28,7 @@
         <?php see_status2($_REQUEST); ?>
         <form class="login-form" action="login_handle.php" method="post">
           <div style="padding: 10px;"></div>
-         <center> <img src="../fac.png" style="width: 60px"></center>
+         <center> <img src="../logos.png" style="width: 60px"></center>
          <div style="padding: 10px;"></div>
           <div class="form-group">
             <label class="control-label">USERNAME</label>
@@ -39,7 +40,7 @@
           </div>
           <div style="padding:10px;"></div>
           <div class="form-group btn-container">
-            <button class="btn btn-primary btn-block" style="background-color: #f44336"><i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN</button>
+            <button class="btn btn-primary btn-block" style="background-color: #601677"><i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN</button>
           </div>
         </form>
         <form class="forget-form" action="index.html">

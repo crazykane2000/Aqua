@@ -4,11 +4,11 @@
     <!-- LOGO -->
     <div class="topbar-left">
         <a href="dashboard.php" class="logo" id="logo-tour">
-            <img src="fac.png" style="width: 30px;"><span style="color:red">OBORTECH</span></a>
+            <img src="logos.png" style="width: 30px;"><span style="color:#333"><?php  echo wallet_names(); ?></span></a>
     </div>
 
 
-    <nav class="navbar navbar-custom" style="background-color: #ea1922">
+    <nav class="navbar navbar-custom" style="background-color: #58156d">
         <ul class="nav navbar-nav">
             <li class="nav-item">
                 <button class="button-menu-mobile open-left waves-light waves-effect">
